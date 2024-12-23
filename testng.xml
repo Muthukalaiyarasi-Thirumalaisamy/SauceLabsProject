@@ -1,0 +1,10 @@
+<suite name="SauceLabsSuite">
+    <test name="SauceLabsTest">
+        <parameter name="browser" value="chrome" />
+        <parameter name="platform" value="Windows 11" />
+        <parameter name="version" value="latest" />
+        <classes>
+            <class name="com.qa.SauceLabs.SauceTest" />
+        </classes>
+    </test>
+</suite>
